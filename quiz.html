@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Safety Quiz - SafeNet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Safe<span>Net</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="stranger.html">Stranger Safety</a></li>
+            <li><a href="scams.html">Scams</a></li>
+            <li><a href="social.html">Online Privacy</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="quiz-section">
+
+<h1>Interactive Safety Quiz</h1>
+
+<div id="progress-container">
+    <div id="progress-bar"></div>
+    <span id="progress-text">Question 1 of 10</span>
+</div>
+
+<div id="quiz-container">
+    <p id="question">Loading question...</p>
+    <div id="options"></div>
+    <button id="next-btn" class="btn" style="display: none;">Next Question</button>
+</div>
+
+<div id="result-container" style="display: none;">
+    <h3>Quiz Complete!</h3>
+    <p id="score-text"></p>
+    <button onclick="location.reload()" class="btn">Restart Quiz</button>
+</div>
+
+</section>
+
+<footer>
+        <p>&copy; 2026 Online Safety Project by Janet Zomomou | Designed for MYP Students</p>
+
+<script src="script.js"></script>
+</body>
+</html>
